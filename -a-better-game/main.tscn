@@ -32,7 +32,7 @@ func _physics_process(delta: float) -> void:
 "
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lquwl"]
-size = Vector2(126.72264, 131.19626)
+size = Vector2(54.421078, 52.857536)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7mycd"]
 texture = ExtResource("2_h2yge")
@@ -1674,14 +1674,14 @@ sources/0 = SubResource("TileSetAtlasSource_1bvp3")
 script = SubResource("GDScript_1bvp3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
-position = Vector2(182, 433.00006)
-rotation = 3.1415927
+position = Vector2(157.73839, 405.3305)
+rotation = -3.1415925
 scale = Vector2(0.6711228, -0.70640767)
 shape = SubResource("RectangleShape2D_lquwl")
 
 [node name="Sprite2D" type="Sprite2D" parent="player"]
-position = Vector2(183, 432)
-scale = Vector2(-0.6711228, 0.70640767)
+position = Vector2(157.7668, 404.7845)
+scale = Vector2(-0.27685422, 0.28116524)
 texture = ExtResource("1_0xm2m")
 
 [node name="Camera2D" type="Camera2D" parent="player"]
