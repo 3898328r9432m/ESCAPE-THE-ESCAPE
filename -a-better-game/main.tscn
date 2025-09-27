@@ -119,8 +119,8 @@ scale = Vector2(0.6711228, -0.70640767)
 shape = SubResource("RectangleShape2D_lquwl")
 
 [node name="Sprite2D" type="Sprite2D" parent="player"]
-position = Vector2(147.25566, 394.1657)
-scale = Vector2(-0.112617835, 0.11524714)
+position = Vector2(147.25566, 395.2927)
+scale = Vector2(-0.112617806, 0.09763827)
 texture = ExtResource("1_0xm2m")
 
 [node name="Camera2D" type="Camera2D" parent="player"]
