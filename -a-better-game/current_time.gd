@@ -33,7 +33,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	seconds_thing += delta
 	
-	if seconds_thing >= 0.1:
+	if seconds_thing >= 1:
 		seconds_thing = 0
 		update_time()
 		if time[1] <= 9:
